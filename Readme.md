@@ -29,22 +29,26 @@ The project demonstrates how **Hibernate simplifies database operations using Ob
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
+```
 LibraryManagementHibernate
 │
-├── src/main/java/com/example
-│   ├── App.java
-│   ├── student.java
-│   ├── book.java
-│   └── issue.java
-│
-├── src/main/resources
-│   └── hibernate.cfg.xml
+├── src
+│   └── main
+│       ├── java
+│       │   └── com
+│       │       └── example
+│       │           ├── App.java
+│       │           ├── student.java
+│       │           ├── book.java
+│       │           └── issue.java
+│       │
+│       └── resources
+│           └── hibernate.cfg.xml
 │
 └── pom.xml
-
----
+```
 
 ## 🗄 Database Tables
 
@@ -135,6 +139,7 @@ This project is created for learning:
 ## 👨‍💻 Author
 
 **Deepak Muduli**
+
 **java Backend Developer**
 
 ---
